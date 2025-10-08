@@ -57,12 +57,14 @@ function getWeather(element) {
         weatherdata.main.temp
       )}°F`;
       weather.innerHTML = `Current weather: ${weatherdata.weather[0].description}`;
-      nasaFac.innerHTML += `<li>The facility is called ${element.facility} and the center is called ${element.center} and the state is ${
+      nasaFac.innerHTML += `<li>The facility is called ${element.facility} and the center is named the ${element.center}, found in the state of ${
         element.state
       }. Current weather: ${
         weatherdata.weather[0].description
-      } and temp: ${Math.round(weatherdata.main.temp)}°F and zip: ${zip.innerText} </li>`;
+      } Current temperature: ${Math.round(weatherdata.main.temp)}°F - Zip Code: ${zip.innerText} </li>`;
     });
 }
 
 getNasaFacilities();
+
+// work completed with the help of Rumi's bf and classmates
