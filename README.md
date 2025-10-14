@@ -47,11 +47,14 @@ cd complex-nasa
 4. (Optional) Add your **OpenWeather API** key in main.js where indicated
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
 <img width="1792" height="872" alt="nasa-screenshot-homepage" src="https://github.com/user-attachments/assets/6362f0ff-69b8-494d-a571-befb41c5ef7f" />
 
 ---
+
+<img width="1792" height="879" alt="nasa-facilities" src="https://github.com/user-attachments/assets/5aa15284-2c2d-40d1-8cef-b8f525d1137e" />
+
 
 ## 🤝 Contributing
 
